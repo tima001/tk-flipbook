@@ -1,0 +1,29 @@
+:root {
+  --navy: #1c2350;
+  --navy-2: #2a3270;
+  --ink: #14161f;
+  --paper: #f5f2ec;
+  --line: rgba(255, 255, 255, 0.12);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue',
+    Arial, sans-serif;
+  background: #d9d2c8;
+  color: #2a2824;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+img { user-select: none; -webkit-user-drag: none; }
+
+button { font-family: inherit; }
